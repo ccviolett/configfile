@@ -1,6 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/samcompu/Documents/1107/source/Correct'
-let g:netrw_dirhist_2='/home/samcompu/Documents/1107'
-let g:netrw_dirhist_3='/home/samcompu/Documents/1107/source/Correct'
-let g:netrw_dirhist_4='/home/samcompu'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/samcompu/Documents'
+let g:netrw_dirhist_2='/home/samcompu/Documents/test20181215'
+let g:netrw_dirhist_3='/home/samcompu/Documents/test20181215/╧┬╖ó╬─╝■'
+let g:netrw_dirhist_4='/home/samcompu/Documents/test20181215'
+let g:netrw_dirhist_5='/home/samcompu/.emacs.d/auto-save-list'
+let g:netrw_dirhist_6='/home/samcompu/man'
+let g:netrw_dirhist_7='/home/samcompu/man/man1'

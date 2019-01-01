@@ -96,6 +96,17 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias rm=trash
 alias cp="cp -i"
 alias go="git-open"
-alias vim="nvim"
-alias open="nautilus . &"
+alias open="xdg-open ."
 alias cat="bat"
+alias vim="nvim"
+alias vi="\vim"
+export PATH=$PATH:~/Tool/bin
+export PATH=$PATH:~/Tool/AppImage
+
+echo
+echo "=============== Quote Of The Day ==============="
+echo
+fortune
+echo
+echo "================================================"
+echo

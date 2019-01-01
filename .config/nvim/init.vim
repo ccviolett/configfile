@@ -4,8 +4,8 @@ set foldmethod=marker " 设置折叠方式
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
-set autoindent " 自动缩进
-set smartindent " 智能缩进
+set autoindent
+set smartindent
 set cindent
 " 自动读写
 set autowrite
@@ -23,15 +23,9 @@ set wildmenu
 set ruler
 " 高亮显示当前行 / 列
 set cursorline
-" 整词换行
-set linebreak
 " 禁止生成临时文件
 set nobackup
 set noswapfile
-" noremap H ^
-" noremap L g_
-" noremap <C-j> 10<C-e>
-" noremap <C-k> 10<C-y>
 
 function! UpdateTag()
   exec "!ctags -R --c++-kinds=+px --fields=+iaS --extra=+q %"
@@ -39,5 +33,7 @@ endfunction!
 
 " vim 自动跳terminal 路径的映射
 tnoremap <C-\>c <C-\><C-n>?pwd<Cr>jV"cy:cd<Space><C-r>c<Cr>:nohl<Cr>:echo<Space>"Now<Space>vim<Space>is<Space>already<Space>in<Space>your<Space>place"<Cr>
+
+noremap ?? :pwd<Cr>
 
 source ~/.config/nvim/plugged.vim
