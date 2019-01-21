@@ -98,8 +98,11 @@ alias cp="cp -i"
 alias go="git-open"
 alias open="xdg-open ."
 alias cat="bat"
-alias vim="nvim"
+alias nvim="\emacs"
+alias vim="\nvim"
 alias vi="\vim"
+alias clear=""
+alias chrome="google-chrome-stable"
 export PATH=$PATH:~/Tool/bin
 export PATH=$PATH:~/Tool/AppImage
 
